@@ -127,7 +127,7 @@ body {
 
 .logo.footer {
   display: inline-block;
-  padding-top: 60px;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -472,28 +472,27 @@ footer {
   margin-bottom: 94px;
 }
 
-.btns.container {
 
-margin-bottom: 0;
-}
 /* Button menu */
+
+
 .portfolio-btn-menu {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 50px;
-  
 }
 
-.btn.list {
-  width: 1230px;
+.filter.list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+   margin: -4px;
   padding: 0;
-  margin: -4px;
 }
 
 .button-items {
-min-width: 73px;
-margin: 4px;
-outline: 1px solid var(--accent-color);
+  margin: 4px;
 }
 
 .btn {
