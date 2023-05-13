@@ -51,6 +51,8 @@ html {
   --hover-button-color: #1d86dd;
   --background-color: #2F303A;
   --logo-color: #000000;
+
+  --underline-color: #ECECEC;
   
 /* Portfolio */
 --btn-menu-color: #F5F4FA;
@@ -492,6 +494,7 @@ footer {
 }
 
 .button-items {
+  min-width: 73px;
   margin: 4px;
 }
 
@@ -505,6 +508,7 @@ footer {
  border-radius: 4px;
  padding: 6px 25px;
  border-radius: 4px;
+
 }
 
 .btn.element {
