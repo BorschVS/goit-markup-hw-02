@@ -98,7 +98,6 @@ body {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 1px solid var(--accent-color);
 }
 
 
@@ -243,10 +242,6 @@ button.primary:focus {
 
 /* Sections & titles & lists & sybtitles */
 
-.section {
-  outline: 1px solid var(--accent-color);
-}
-
 /* h2 */
 
 .section-title {
@@ -275,7 +270,6 @@ flex-wrap: wrap;
 }
 
 .feauture-list .item {
-  outline: 1px solid var(--outline-control-color);
   width: calc((100% - 90px) / 4);
 }
 
@@ -299,7 +293,6 @@ flex-wrap: wrap;
   width: 370px;
   margin: 15px;
 
-outline: 1px solid var(--outline-control-color);
 }
 
 
@@ -333,7 +326,7 @@ outline: 1px solid var(--outline-control-color);
 .team-list .item {
   width: 270px;
   margin: 15px;
-outline: 1px solid var(--outline-control-color);
+
 text-align: center;
 }
 
@@ -480,30 +473,30 @@ footer {
 }
 
 .btns.container {
+
 margin-bottom: 0;
 }
 /* Button menu */
 .portfolio-btn-menu {
   margin-bottom: 50px;
-  outline: 1px solid var(--outline-control-color);
+  
 }
 
 .btn.list {
+  width: 1230px;
   display: flex;
   justify-content: center;
-  margin: -4px;
-  outline: 1px solid var(--outline-control-color);
   padding: 0;
+  margin: -4px;
 }
 
 .button-items {
 min-width: 73px;
 margin: 4px;
-outline: 1px solid var(--outline-control-color);
+outline: 1px solid var(--accent-color);
 }
 
 .btn {
- display: inline-block;
 
  font-size: 16px;
  font-weight: 500;
@@ -513,7 +506,6 @@ outline: 1px solid var(--outline-control-color);
  border-radius: 4px;
  padding: 6px 25px;
  border-radius: 4px;
- outline: 1px solid var(--outline-control-color);
 }
 
 .btn.element {
@@ -542,12 +534,11 @@ outline: 1px solid var(--outline-control-color);
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
-  outline: 1px solid var(--outline-control-color);
 }
 
 .portfolio-item {
   margin: 15px;
-  outline: 1px solid var(--outline-control-color);
+
 }
 
 .subtitle.portfolio {
@@ -557,11 +548,10 @@ outline: 1px solid var(--outline-control-color);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 6%;
-  outline: 1px solid var(--outline-control-color);
+
 }
 
 .subtitle-text.type {
   margin-top: 4px;
   margin-bottom: 5px;
-  outline: 1px solid var(--outline-control-color);
 }
