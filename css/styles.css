@@ -531,6 +531,7 @@ outline: 1px solid var(--accent-color);
 /* Portfolio */
 
 .portfolio.list {
+
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
@@ -538,7 +539,6 @@ outline: 1px solid var(--accent-color);
 
 .portfolio-item {
   margin: 15px;
-
 }
 
 .subtitle.portfolio {
